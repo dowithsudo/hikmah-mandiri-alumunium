@@ -56,7 +56,7 @@ const Tentang = () => {
               Tentang Kami
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-              Spesialis Aluminium & Kaca Terpercaya
+              HIKMAH MANDIRI ALUMUNIUM
             </h1>
             <p className="text-xl text-primary-foreground/80">
               Lebih dari 5 tahun pengalaman melayani kebutuhan aluminium dan kaca 
@@ -172,56 +172,7 @@ const Tentang = () => {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="py-20 bg-background">
-        <div className="container">
-          <div className="text-center max-w-2xl mx-auto mb-14">
-            <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-3 block">
-              Perjalanan Kami
-            </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Jejak Langkah Kami
-            </h2>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              {/* Line */}
-              <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-border md:-translate-x-0.5" />
-
-              <div className="space-y-8">
-                {milestones.map((milestone, index) => (
-                  <div
-                    key={index}
-                    className={`flex items-start gap-6 ${
-                      index % 2 === 0 ? "md:flex-row-reverse" : ""
-                    }`}
-                  >
-                    <div className={`flex-1 ${index % 2 === 0 ? "md:text-right" : ""} pl-12 md:pl-0`}>
-                      <div className="bg-card rounded-xl p-6 shadow-soft inline-block">
-                        <div className="text-accent font-bold text-lg mb-2">
-                          {milestone.year}
-                        </div>
-                        <p className="text-foreground">
-                          {milestone.event}
-                        </p>
-                      </div>
-                    </div>
-                    
-                    {/* Dot */}
-                    <div className="absolute left-4 md:relative md:left-auto flex-shrink-0 w-8 h-8 rounded-full gradient-accent flex items-center justify-center">
-                      <div className="w-3 h-3 rounded-full bg-accent-foreground" />
-                    </div>
-                    
-                    <div className="flex-1 hidden md:block" />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+     
       {/* Area Coverage */}
       <section className="py-20 bg-secondary/50">
         <div className="container">
@@ -287,6 +238,8 @@ const Tentang = () => {
           </div>
         </div>
       </section>
+
+      
 
       {/* CTA */}
       <CTASection
