@@ -71,7 +71,7 @@ const Footer = () => {
                 className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>0812-8840-4775</span>
+                <span>0856-8903-652 / 0857-1105-9130</span>
               </a>
               <a
                 href="mailto:info@aluminiumkaca.com"

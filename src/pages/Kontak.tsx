@@ -9,8 +9,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Kontak 1 (Telepon & WhatsApp)",
-    value: "0812-8840-4775",
-    href: "https://wa.me/6281288404775",
+    value: "0856-8903-652",
+    href: "https://wa.me/628568903652",
   },
   {
     icon: Phone,
