@@ -8,13 +8,13 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [
   {
     icon: Phone,
-    label: "Kontak 1 (Telepon & WhatsApp",
+    label: "Kontak 1 (Telepon & WhatsApp)",
     value: "0812-8840-4775",
     href: "https://wa.me/6281288404775",
   },
   {
     icon: Phone,
-    label: "Kontak 2 (Telepon & WhatsApp",
+    label: "Kontak 2 (Telepon & WhatsApp)",
     value: "0857-1105-9130",
     href: "https://wa.me/6285711059130",
   },
@@ -27,7 +27,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Alamat",
-    value: "Perumahan Griya Setu Permai 2, Blok DD3/10, RT008/015, Setu, Bekasi, Jawa Barat",
+    value:
+      "Perumahan Griya Setu Permai 2, Blok DD3/10, RT008/015, Setu, Bekasi, Jawa Barat",
   },
   {
     icon: Clock,
@@ -59,13 +60,13 @@ const Kontak = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    // Create WhatsApp message
     const message = `Halo, saya ${formData.nama}.\n\nPesan: ${formData.pesan}\n\nNo. HP: ${formData.telepon}`;
-    const whatsappUrl = `https://wa.me/6281288404775?text=${encodeURIComponent(message)}`;
-    
+    const whatsappUrl = `https://wa.me/6285711059130?text=${encodeURIComponent(
+      message
+    )}`;
+
     window.open(whatsappUrl, "_blank");
 
     toast({
@@ -93,8 +94,8 @@ const Kontak = () => {
               Siap Membantu Kebutuhan Anda
             </h1>
             <p className="text-xl text-primary-foreground/80">
-              Ada pertanyaan atau ingin konsultasi? Hubungi kami melalui 
-              berbagai channel yang tersedia.
+              Ada pertanyaan atau ingin konsultasi? Hubungi kami melalui berbagai
+              channel yang tersedia.
             </p>
           </div>
         </div>
@@ -127,8 +128,14 @@ const Kontak = () => {
                         {info.href ? (
                           <a
                             href={info.href}
-                            target={info.href.startsWith("http") ? "_blank" : undefined}
-                            rel={info.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                            target={
+                              info.href.startsWith("http") ? "_blank" : undefined
+                            }
+                            rel={
+                              info.href.startsWith("http")
+                                ? "noopener noreferrer"
+                                : undefined
+                            }
                             className="text-foreground font-semibold hover:text-accent transition-colors"
                           >
                             {info.value}
@@ -158,7 +165,7 @@ const Kontak = () => {
                   </div>
                 </div>
                 <a
-                  href="https://wa.me/6281288404775?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca"
+                  href="https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20aluminium%20dan%20kaca"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -178,16 +185,11 @@ const Kontak = () => {
 
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label
-                    htmlFor="nama"
-                    className="block text-sm font-medium text-foreground mb-2"
-                  >
+                  <label className="block text-sm font-medium text-foreground mb-2">
                     Nama Lengkap
                   </label>
                   <Input
-                    id="nama"
                     name="nama"
-                    placeholder="Masukkan nama Anda"
                     value={formData.nama}
                     onChange={handleChange}
                     required
@@ -196,17 +198,12 @@ const Kontak = () => {
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="telepon"
-                    className="block text-sm font-medium text-foreground mb-2"
-                  >
+                  <label className="block text-sm font-medium text-foreground mb-2">
                     Nomor HP / WhatsApp
                   </label>
                   <Input
-                    id="telepon"
                     name="telepon"
                     type="tel"
-                    placeholder="08xxxxxxxxxx"
                     value={formData.telepon}
                     onChange={handleChange}
                     required
@@ -215,16 +212,11 @@ const Kontak = () => {
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="pesan"
-                    className="block text-sm font-medium text-foreground mb-2"
-                  >
+                  <label className="block text-sm font-medium text-foreground mb-2">
                     Pesan
                   </label>
                   <Textarea
-                    id="pesan"
                     name="pesan"
-                    placeholder="Tuliskan kebutuhan atau pertanyaan Anda..."
                     value={formData.pesan}
                     onChange={handleChange}
                     required
@@ -240,14 +232,7 @@ const Kontak = () => {
                   className="w-full"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? (
-                    "Mengirim..."
-                  ) : (
-                    <>
-                      <Send className="w-5 h-5" />
-                      Kirim Pesan
-                    </>
-                  )}
+                  {isSubmitting ? "Mengirim..." : <> <Send className="w-5 h-5" /> Kirim Pesan </>}
                 </Button>
               </form>
             </div>
@@ -258,15 +243,6 @@ const Kontak = () => {
       {/* Google Maps */}
       <section className="py-20 bg-secondary/50">
         <div className="container">
-          <div className="text-center max-w-2xl mx-auto mb-10">
-            <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Lokasi Kami
-            </h2>
-            <p className="text-muted-foreground">
-              Kunjungi workshop kami atau hubungi untuk penjadwalan survey lokasi proyek Anda.
-            </p>
-          </div>
-
           <div className="rounded-2xl overflow-hidden shadow-elevated">
             <iframe
               src="https://www.google.com/maps?q=-6.344649157435903,107.04416565234398&hl=id&z=17&output=embed"

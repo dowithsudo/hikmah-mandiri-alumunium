@@ -11,7 +11,7 @@ const CTASection = ({
   subtitle = "Konsultasikan kebutuhan aluminium dan kaca Anda dengan tim profesional kami. Gratis survey dan estimasi biaya!",
 }: CTASectionProps) => {
   const whatsappLink =
-    "https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+    "https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20aluminium%20dan%20kaca";
 
   return (
     <section className="py-20 gradient-hero relative overflow-hidden">
@@ -37,6 +37,7 @@ const CTASection = ({
                 Konsultasi via WhatsApp
               </Button>
             </a>
+
             <a href="/kontak">
               <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
                 Lihat Kontak

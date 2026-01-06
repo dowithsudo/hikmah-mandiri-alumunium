@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   const whatsappLink =
-    "https://wa.me/6281288404775?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+    "https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20aluminium%20dan%20kaca";
 
   return (
     <a
@@ -15,7 +15,7 @@ const WhatsAppButton = () => {
       <div className="relative">
         {/* Pulse animation ring */}
         <div className="absolute inset-0 bg-whatsapp rounded-full animate-ping opacity-30" />
-        
+
         {/* Main button */}
         <div className="relative w-14 h-14 bg-whatsapp rounded-full flex items-center justify-center shadow-elevated hover:bg-whatsapp-hover transition-all duration-300 hover:scale-110">
           <MessageCircle className="w-7 h-7 text-white" />
