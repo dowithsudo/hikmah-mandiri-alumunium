@@ -5,8 +5,8 @@ import CTASection from "@/components/sections/CTASection";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const stats = [
-  { icon: Award, value: "5+", label: "Tahun Pengalaman" },
-  { icon: CheckCircle, value: "200+", label: "Proyek Selesai" },
+  { icon: Award, value: "10+", label: "Tahun Pengalaman" },
+  { icon: CheckCircle, value: "400+", label: "Proyek Selesai" },
   { icon: Users, value: "10+", label: "Tenaga Profesional" },
   { icon: Sparkles, value: "100%", label: "Material Berkualitas" },
 ];

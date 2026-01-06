@@ -8,9 +8,15 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [
   {
     icon: Phone,
-    label: "Telepon / WhatsApp",
-    value: "0812-3456-7890",
-    href: "https://wa.me/6281234567890",
+    label: "Kontak 1 (Telepon & WhatsApp",
+    value: "0812-8840-4775",
+    href: "https://wa.me/6281288404775",
+  },
+  {
+    icon: Phone,
+    label: "Kontak 2 (Telepon & WhatsApp",
+    value: "0857-1105-9130",
+    href: "https://wa.me/6285711059130",
   },
   {
     icon: Mail,
@@ -21,8 +27,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Alamat",
-    value: "Jl. Industri No. 123, Jakarta Selatan 12345",
-    href: "https://maps.google.com",
+    value: "Perumahan Griya Setu Permai 2, Blok DD3/10, RT008/015, Setu, Bekasi, Jawa Barat",
   },
   {
     icon: Clock,
@@ -59,7 +64,7 @@ const Kontak = () => {
 
     // Create WhatsApp message
     const message = `Halo, saya ${formData.nama}.\n\nPesan: ${formData.pesan}\n\nNo. HP: ${formData.telepon}`;
-    const whatsappUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/6281288404775?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, "_blank");
 
@@ -153,7 +158,7 @@ const Kontak = () => {
                   </div>
                 </div>
                 <a
-                  href="https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca"
+                  href="https://wa.me/6281288404775?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -264,14 +269,14 @@ const Kontak = () => {
 
           <div className="rounded-2xl overflow-hidden shadow-elevated">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.29279968756!2d106.7588371!3d-6.2297465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b9d%3A0x5371bf0fdad786a2!2sJakarta%20Selatan%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1699999999999!5m2!1sid!2sid"
+              src="https://www.google.com/maps?q=-6.344649157435903,107.04416565234398&hl=id&z=17&output=embed"
               width="100%"
               height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokasi Aluminium & Kaca"
+              title="Lokasi Workshop Hikmah Mandiri Aluminium & Kaca"
               className="w-full"
             />
           </div>

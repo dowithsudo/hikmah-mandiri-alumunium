@@ -97,11 +97,11 @@ const Tentang = () => {
 
               <div className="grid grid-cols-3 gap-6 mt-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-foreground mb-1">5+</div>
+                  <div className="text-3xl font-bold text-foreground mb-1">10+</div>
                   <div className="text-muted-foreground text-sm">Tahun Pengalaman</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-foreground mb-1">200+</div>
+                  <div className="text-3xl font-bold text-foreground mb-1">400+</div>
                   <div className="text-muted-foreground text-sm">Proyek Selesai</div>
                 </div>
                 <div className="text-center">

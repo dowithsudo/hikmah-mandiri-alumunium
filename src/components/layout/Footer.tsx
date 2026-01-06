@@ -16,12 +16,15 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-bold text-lg">Aluminium</span>
-                <span className="font-medium text-sm block -mt-1 opacity-80">& Kaca</span>
+                <span className="font-medium text-sm block -mt-1 opacity-80">
+                  & Kaca
+                </span>
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Spesialis jasa aluminium dan kaca berkualitas untuk rumah, ruko, kantor, dan bangunan komersial. 
-              Pengerjaan profesional dengan hasil terbaik.
+              Spesialis jasa aluminium dan kaca berkualitas untuk rumah, ruko,
+              kantor, dan bangunan komersial. Pengerjaan profesional dengan hasil
+              terbaik.
             </p>
           </div>
 
@@ -68,7 +71,7 @@ const Footer = () => {
                 className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
               >
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>0812-3456-7890</span>
+                <span>0812-8840-4775</span>
               </a>
               <a
                 href="mailto:info@aluminiumkaca.com"
@@ -79,7 +82,10 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>Jl. Industri No. 123, Jakarta Selatan</span>
+                <span>
+                  Perumahan Griya Setu Permai 2, Blok DD3/10, RT008/015, Setu,
+                  Bekasi, Jawa Barat
+                </span>
               </div>
               <div className="flex items-center gap-3 text-primary-foreground/70">
                 <Clock className="w-4 h-4 flex-shrink-0" />
@@ -96,8 +102,21 @@ const Footer = () => {
           <p className="text-primary-foreground/60 text-sm">
             © {currentYear} Aluminium & Kaca. Hak Cipta Dilindungi.
           </p>
+
           <p className="text-primary-foreground/60 text-sm">
             Melayani area Jabodetabek dan sekitarnya
+          </p>
+
+          <p className="text-primary-foreground/50 text-xs">
+            Website development by{" "}
+            <a
+              href="https://dowithsudo.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent underline"
+            >
+              dowithsudo
+            </a>
           </p>
         </div>
       </div>
