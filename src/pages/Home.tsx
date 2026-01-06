@@ -226,7 +226,7 @@ const Home = () => {
               Area Layanan
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Melayani Berbagai Jenis Bangunan
+              Hikmah Mandiri Alumunium Melayani Berbagai Jenis Bangunan
             </h2>
             <p className="text-muted-foreground">
               Dari rumah tinggal hingga bangunan komersial, kami siap membantu 

@@ -30,7 +30,7 @@ const Header = () => {
     setIsMobileMenuOpen(false);
   }, [location]);
 
-  const whatsappLink = "https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+  const whatsappLink = "https://wa.me/6281288404775?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
 
   return (
     <header
@@ -45,14 +45,14 @@ const Header = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
           <div className="w-10 h-10 gradient-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">AK</span>
+            <span className="text-primary-foreground font-bold text-lg">HMA</span>
           </div>
           <div className={cn(
             "transition-colors",
             isScrolled ? "text-foreground" : "text-primary-foreground"
           )}>
-            <span className="font-bold text-lg">Aluminium</span>
-            <span className="font-medium text-sm block -mt-1 opacity-80">& Kaca</span>
+            <span className="font-bold text-lg">Hikmah</span>
+            <span className="font-medium text-sm block -mt-1 opacity-80">Mandiri Alumunium</span>
           </div>
         </Link>
 
