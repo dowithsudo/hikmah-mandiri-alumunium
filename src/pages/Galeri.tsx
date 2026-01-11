@@ -1,24 +1,9 @@
 import { useState } from "react";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 import CTASection from "@/components/sections/CTASection";
-import heroBg from "@/assets/hero-bg.jpg";
+import { mainGalleryItems as galleryItems } from "@/data/mainGalerry";
 
-const galleryItems = [
-  { id: 1, title: "Pintu Aluminium Sliding", category: "Pintu", location: "Jakarta Selatan" },
-  { id: 2, title: "Jendela Casement Modern", category: "Jendela", location: "Tangerang" },
-  { id: 3, title: "Etalase Toko Fashion", category: "Etalase", location: "Jakarta Pusat" },
-  { id: 4, title: "Canopy Kaca Tempered", category: "Canopy", location: "Bekasi" },
-  { id: 5, title: "Railing Tangga Premium", category: "Railing", location: "Depok" },
-  { id: 6, title: "Partisi Kaca Frameless", category: "Partisi", location: "Jakarta Barat" },
-  { id: 7, title: "Pintu Lipat Aluminium", category: "Pintu", location: "Bogor" },
-  { id: 8, title: "Jendela Fixed Large", category: "Jendela", location: "Tangerang Selatan" },
-  { id: 9, title: "Shower Box Kaca", category: "Custom", location: "Jakarta Timur" },
-  { id: 10, title: "Pagar Aluminium Minimalis", category: "Pagar", location: "Bekasi" },
-  { id: 11, title: "Etalase Showroom Mobil", category: "Etalase", location: "Jakarta Utara" },
-  { id: 12, title: "Fasad Gedung Komersial", category: "Custom", location: "Jakarta Selatan" },
-];
-
-const categories = ["Semua", "Pintu", "Jendela", "Etalase", "Canopy", "Railing", "Partisi", "Pagar", "Custom"];
+const categories = ["Semua", "Pintu", "Jendela", "Etalase", "Canopy", "Railing", "Partisi", "Custom"];
 
 const Galeri = () => {
   const [selectedCategory, setSelectedCategory] = useState("Semua");
@@ -107,7 +92,7 @@ const Galeri = () => {
                 className="group relative aspect-square rounded-xl overflow-hidden shadow-soft cursor-pointer"
               >
                 <img
-                  src={heroBg}
+                  src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -172,7 +157,7 @@ const Galeri = () => {
           {/* Image */}
           <div className="max-w-5xl w-full px-6">
             <img
-              src={heroBg}
+              src={filteredItems[currentImageIndex]?.image}
               alt={filteredItems[currentImageIndex]?.title}
               className="w-full max-h-[70vh] object-contain rounded-lg"
             />
