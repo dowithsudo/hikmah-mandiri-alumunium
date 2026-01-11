@@ -12,12 +12,12 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-lg">AK</span>
+                <span className="text-accent-foreground font-bold text-lg">HMA</span>
               </div>
               <div>
-                <span className="font-bold text-lg">Aluminium</span>
+                <span className="font-bold text-lg">Hikmah</span>
                 <span className="font-medium text-sm block -mt-1 opacity-80">
-                  & Kaca
+                  Mandiri Aluminium
                 </span>
               </div>
             </div>
