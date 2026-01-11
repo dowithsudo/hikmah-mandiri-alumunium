@@ -245,7 +245,7 @@ const Kontak = () => {
         <div className="container">
           <div className="rounded-2xl overflow-hidden shadow-elevated">
             <iframe
-              src="https://www.google.com/maps?q=-6.344649157435903,107.04416565234398&hl=id&z=17&output=embed"
+              src="https://www.google.com/maps?q=-6.344830366339012, 107.04422068978651&hl=id&z=17&output=embed"
               width="100%"
               height="450"
               style={{ border: 0 }}
