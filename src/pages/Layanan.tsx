@@ -16,15 +16,15 @@ import etalaseKaca from "@/assets/gallery/etalase_kaca.png";
 
 const services = [
   {
-    title: "Pintu Aluminium",
-    description: "Pintu aluminium modern dengan berbagai pilihan model swing, sliding, dan folding. Tersedia dalam berbagai warna dan finishing.",
+    title: "Pintu Alumunium",
+    description: "Pintu alumunium modern dengan berbagai pilihan model swing, sliding, dan folding. Tersedia dalam berbagai warna dan finishing.",
     features: ["Tahan karat", "Desain modern", "Berbagai pilihan warna", "Garansi pekerjaan"],
     icon: "🚪",
     image: pintuAlumunium,
   },
   {
-    title: "Jendela Aluminium",
-    description: "Jendela aluminium berkualitas tinggi dengan pilihan geser, casement, dan fixed. Cocok untuk rumah modern.",
+    title: "Jendela Alumunium",
+    description: "Jendela alumunium berkualitas tinggi dengan pilihan geser, casement, dan fixed. Cocok untuk rumah modern.",
     features: ["Kedap suara", "Hemat energi", "Perawatan mudah", "Tahan lama"],
     icon: "🪟",
     image: kusenJendela,
@@ -38,15 +38,15 @@ const services = [
   },
   {
     title: "Canopy & Pagar",
-    description: "Perlindungan area outdoor dengan canopy kaca dan aluminium. Pagar aluminium untuk keamanan dan estetika.",
+    description: "Perlindungan area outdoor dengan canopy kaca dan alumunium. Pagar alumunium untuk keamanan dan estetika.",
     features: ["Tahan cuaca", "Desain minimalis", "Struktur kokoh", "Anti karat"],
     icon: "🏠",
     image: kanopiKaca,
   },
   {
     title: "Tangga & Railing",
-    description: "Railing tangga dan balkon dengan kombinasi aluminium dan kaca tempered untuk tampilan elegan.",
-    features: ["Kaca tempered", "Aluminium premium", "Desain elegan", "Keamanan tinggi"],
+    description: "Railing tangga dan balkon dengan kombinasi alumunium dan kaca tempered untuk tampilan elegan.",
+    features: ["Kaca tempered", "Alumunium premium", "Desain elegan", "Keamanan tinggi"],
     icon: "🔧",
     image: railingKaca,
   },
@@ -61,11 +61,11 @@ const services = [
 
 const materials = [
   {
-    category: "Aluminium",
+    category: "Alumunium",
     items: [
-      { name: "Aluminium Standar", desc: "Ekonomis dengan kualitas baik" },
-      { name: "Aluminium Premium", desc: "Kualitas tinggi, finishing lebih halus" },
-      { name: "Aluminium YKK/Superex", desc: "Brand ternama, garansi panjang" },
+      { name: "Alumunium Standar", desc: "Ekonomis dengan kualitas baik" },
+      { name: "Alumunium Premium", desc: "Kualitas tinggi, finishing lebih halus" },
+      { name: "Alumunium YKK/Superex", desc: "Brand ternama, garansi panjang" },
     ],
   },
   {
@@ -156,11 +156,11 @@ const Layanan = () => {
               Layanan Kami
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
-              Solusi Lengkap Aluminium & Kaca Profesional
+              Solusi Lengkap Alumunium & Kaca Profesional
             </h1>
             <p className="text-xl text-primary-foreground/80">
               Dari konsultasi hingga pemasangan, kami menyediakan layanan lengkap 
-              untuk semua kebutuhan aluminium dan kaca Anda.
+              untuk semua kebutuhan alumunium dan kaca Anda.
             </p>
           </div>
         </div>
@@ -227,7 +227,7 @@ const Layanan = () => {
               <div key={index} className="bg-card rounded-2xl p-8 shadow-soft">
                 <h3 className="text-2xl font-bold text-foreground mb-6 flex items-center gap-3">
                   <div className="w-10 h-10 rounded-xl gradient-primary flex items-center justify-center text-primary-foreground text-lg">
-                    {mat.category === "Aluminium" ? "Al" : "🪟"}
+                    {mat.category === "Alumunium" ? "Al" : "🪟"}
                   </div>
                   {mat.category}
                 </h3>
@@ -365,7 +365,7 @@ const Layanan = () => {
       {/* CTA */}
       <CTASection
         title="Butuh Konsultasi untuk Proyek Anda?"
-        subtitle="Tim kami siap membantu memberikan solusi terbaik untuk kebutuhan aluminium dan kaca Anda."
+        subtitle="Tim kami siap membantu memberikan solusi terbaik untuk kebutuhan alumunium dan kaca Anda."
       />
     </>
   );

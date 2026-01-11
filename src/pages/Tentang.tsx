@@ -6,7 +6,7 @@ const values = [
   {
     icon: Award,
     title: "Profesional",
-    description: "Tim kami terdiri dari tenaga ahli yang berpengalaman dan terlatih dalam bidang aluminium dan kaca.",
+    description: "Tim kami terdiri dari tenaga ahli yang berpengalaman dan terlatih dalam bidang alumunium dan kaca.",
   },
   {
     icon: Heart,
@@ -51,7 +51,7 @@ const Tentang = () => {
               HIKMAH MANDIRI ALUMUNIUM
             </h1>
             <p className="text-xl text-primary-foreground/80">
-              Lebih dari 10 tahun pengalaman melayani kebutuhan aluminium dan kaca 
+              Lebih dari 10 tahun pengalaman melayani kebutuhan alumunium dan kaca 
               untuk berbagai jenis bangunan di Jabodetabek.
             </p>
           </div>
@@ -67,12 +67,12 @@ const Tentang = () => {
                 Profil Usaha
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Mitra Terpercaya untuk Proyek Aluminium & Kaca
+                Mitra Terpercaya untuk Proyek Alumunium & Kaca
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">Hikmah Mandiri Aluminium</strong> adalah penyedia jasa 
-                  aluminium dan kaca profesional yang telah melayani ratusan pelanggan di area 
+                  <strong className="text-foreground">Hikmah Mandiri Alumunium</strong> adalah penyedia jasa 
+                  alumunium dan kaca profesional yang telah melayani ratusan pelanggan di area 
                   Jabodetabek dan sekitarnya.
                 </p>
                 <p>
@@ -82,7 +82,7 @@ const Tentang = () => {
                 </p>
                 <p>
                   Dengan tim profesional yang berpengalaman dan didukung oleh material 
-                  berkualitas tinggi, kami siap mewujudkan kebutuhan aluminium dan kaca 
+                  berkualitas tinggi, kami siap mewujudkan kebutuhan alumunium dan kaca 
                   Anda dengan hasil terbaik.
                 </p>
               </div>
@@ -107,7 +107,7 @@ const Tentang = () => {
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-elevated">
                 <img
                   src={heroBg}
-                  alt="Tim Aluminium & Kaca"
+                  alt="Tim Alumunium & Kaca"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -200,7 +200,7 @@ const Tentang = () => {
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                   <p className="text-muted-foreground">
-                    Menjadi penyedia jasa aluminium dan kaca terpercaya dengan 
+                    Menjadi penyedia jasa alumunium dan kaca terpercaya dengan 
                     standar kualitas tertinggi di Indonesia.
                   </p>
                 </div>
@@ -222,7 +222,7 @@ const Tentang = () => {
                   <CheckCircle className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                   <p className="text-muted-foreground">
                     Terus berinovasi dan mengikuti perkembangan teknologi 
-                    dalam industri aluminium dan kaca.
+                    dalam industri alumunium dan kaca.
                   </p>
                 </div>
               </div>
@@ -236,7 +236,7 @@ const Tentang = () => {
       {/* CTA */}
       <CTASection
         title="Mari Bekerja Sama"
-        subtitle="Hubungi kami untuk konsultasi gratis dan wujudkan proyek aluminium & kaca impian Anda."
+        subtitle="Hubungi kami untuk konsultasi gratis dan wujudkan proyek alumunium & kaca impian Anda."
       />
     </>
   );

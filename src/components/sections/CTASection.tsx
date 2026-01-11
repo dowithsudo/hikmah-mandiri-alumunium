@@ -1,4 +1,6 @@
 import { Phone, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
+
 import { Button } from "@/components/ui/button";
 
 interface CTASectionProps {
@@ -8,10 +10,10 @@ interface CTASectionProps {
 
 const CTASection = ({
   title = "Siap Mewujudkan Proyek Impian Anda?",
-  subtitle = "Konsultasikan kebutuhan aluminium dan kaca Anda dengan tim profesional kami. Gratis survey dan estimasi biaya!",
+  subtitle = "Konsultasikan kebutuhan alumunium dan kaca Anda dengan tim profesional kami. Gratis survey dan estimasi biaya!",
 }: CTASectionProps) => {
   const whatsappLink =
-    "https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20aluminium%20dan%20kaca";
+    "https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20alumunium%20dan%20kaca";
 
   return (
     <section className="py-20 gradient-hero relative overflow-hidden">
@@ -38,12 +40,12 @@ const CTASection = ({
               </Button>
             </a>
 
-            <a href="/kontak">
+            <Link to="/kontak">
               <Button variant="hero-outline" size="xl" className="w-full sm:w-auto">
                 Lihat Kontak
                 <ArrowRight className="w-5 h-5" />
               </Button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

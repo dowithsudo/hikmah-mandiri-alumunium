@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 @layer base {
   :root {
@@ -41,11 +41,28 @@
     --radius: 0.75rem;
 
     /* Custom variables */
-    --gradient-primary: linear-gradient(135deg, hsl(215 25% 17%) 0%, hsl(215 30% 25%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(175 65% 35%) 0%, hsl(180 55% 40%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(215 25% 12%) 0%, hsl(220 30% 20%) 50%, hsl(175 40% 25%) 100%);
-    --gradient-cta: linear-gradient(135deg, hsl(175 65% 32%) 0%, hsl(180 60% 38%) 100%);
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(215 25% 17%) 0%,
+      hsl(215 30% 25%) 100%
+    );
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(175 65% 35%) 0%,
+      hsl(180 55% 40%) 100%
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(215 25% 12%) 0%,
+      hsl(220 30% 20%) 50%,
+      hsl(175 40% 25%) 100%
+    );
+    --gradient-cta: linear-gradient(
+      135deg,
+      hsl(175 65% 32%) 0%,
+      hsl(180 60% 38%) 100%
+    );
+
     --shadow-soft: 0 4px 20px -4px hsl(215 25% 17% / 0.1);
     --shadow-card: 0 8px 30px -8px hsl(215 25% 17% / 0.12);
     --shadow-elevated: 0 20px 50px -12px hsl(215 25% 17% / 0.2);
@@ -115,7 +132,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
   }
 }
 
@@ -172,7 +189,8 @@
   }
 
   @keyframes float {
-    0%, 100% {
+    0%,
+    100% {
       transform: translateY(0);
     }
     50% {

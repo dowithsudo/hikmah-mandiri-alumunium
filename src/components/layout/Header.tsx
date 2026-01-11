@@ -30,7 +30,7 @@ const Header = () => {
     setIsMobileMenuOpen(false);
   }, [location]);
 
-  const whatsappLink = "https://wa.me/6285711059130?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+  const whatsappLink = "https://wa.me/6285711059130?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20alumunium%20%26%20kaca";
 
   return (
     <header

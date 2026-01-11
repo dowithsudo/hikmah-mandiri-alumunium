@@ -14,7 +14,7 @@ const stats = [
 
 const services = [
   {
-    title: "Pintu & Jendela Aluminium",
+    title: "Pintu & Jendela Alumunium",
     description: "Desain modern dengan berbagai pilihan warna dan model sesuai kebutuhan.",
     icon: "🚪",
   },
@@ -62,7 +62,7 @@ const testimonials = [
   {
     name: "Budi Santoso",
     role: "Pemilik Rumah",
-    content: "Hasil pengerjaan sangat memuaskan. Jendela aluminium terpasang dengan rapi dan presisi. Recommended!",
+    content: "Hasil pengerjaan sangat memuaskan. Jendela alumunium terpasang dengan rapi dan presisi. Recommended!",
   },
   {
     name: "Ibu Ratna",
@@ -80,7 +80,7 @@ const testimonials = [
 
 const Home = () => {
   const whatsappLink =
-    "https://wa.me/6285711059130?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+    "https://wa.me/6285711059130?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20alumunium%20%26%20kaca";
 
   return (
     <>
@@ -105,19 +105,19 @@ const Home = () => {
             <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm border border-primary-foreground/20 rounded-full px-4 py-2 mb-8">
               <Sparkles className="w-4 h-4 text-accent" />
               <span className="text-primary-foreground/90 text-sm font-medium">
-                Spesialis Aluminium & Kaca Terpercaya
+                Spesialis Alumunium & Kaca Terpercaya
               </span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
               Solusi Terbaik untuk{" "}
-              <span>Aluminium & Kaca</span>{" "}
+              <span>Alumunium & Kaca</span>{" "}
               Berkualitas
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
               Lebih dari 10 tahun pengalaman melayani kebutuhan pintu, jendela, etalase, 
-              dan berbagai pekerjaan aluminium & kaca dengan hasil profesional.
+              dan berbagai pekerjaan alumunium & kaca dengan hasil profesional.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -176,10 +176,10 @@ const Home = () => {
               Layanan Kami
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Solusi Lengkap Aluminium & Kaca
+              Solusi Lengkap Alumunium & Kaca
             </h2>
             <p className="text-muted-foreground">
-              Kami menyediakan berbagai layanan aluminium dan kaca untuk memenuhi 
+              Kami menyediakan berbagai layanan alumunium dan kaca untuk memenuhi 
               kebutuhan properti Anda.
             </p>
           </div>
@@ -224,7 +224,7 @@ const Home = () => {
             </h2>
             <p className="text-muted-foreground">
               Dari rumah tinggal hingga bangunan komersial, kami siap membantu 
-              mewujudkan kebutuhan aluminium dan kaca Anda.
+              mewujudkan kebutuhan alumunium dan kaca Anda.
             </p>
           </div>
 

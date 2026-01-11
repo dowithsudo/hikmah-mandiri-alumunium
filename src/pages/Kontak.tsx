@@ -21,8 +21,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@aluminiumkaca.com",
-    href: "mailto:info@aluminiumkaca.com",
+    value: "info@alumuniumkaca.com",
+    href: "mailto:info@alumuniumkaca.com",
   },
   {
     icon: MapPin,
@@ -165,7 +165,7 @@ const Kontak = () => {
                   </div>
                 </div>
                 <a
-                  href="https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20aluminium%20dan%20kaca"
+                  href="https://wa.me/6285711059130?text=Halo%20saya%20tertarik%20dengan%20jasa%20alumunium%20dan%20kaca"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -252,7 +252,7 @@ const Kontak = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Lokasi Workshop Hikmah Mandiri Aluminium & Kaca"
+              title="Lokasi Workshop Hikmah Mandiri Alumunium & Kaca"
               className="w-full"
             />
           </div>

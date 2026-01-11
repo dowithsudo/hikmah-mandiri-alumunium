@@ -17,12 +17,12 @@ const Footer = () => {
               <div>
                 <span className="font-bold text-lg">Hikmah</span>
                 <span className="font-medium text-sm block -mt-1 opacity-80">
-                  Mandiri Aluminium
+                  Mandiri Alumunium
                 </span>
               </div>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Spesialis jasa aluminium dan kaca berkualitas untuk rumah, ruko,
+              Spesialis jasa alumunium dan kaca berkualitas untuk rumah, ruko,
               kantor, dan bangunan komersial. Pengerjaan profesional dengan hasil
               terbaik.
             </p>
@@ -54,11 +54,11 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Layanan</h4>
             <ul className="flex flex-col gap-2 text-sm text-primary-foreground/70">
-              <li>Pintu & Jendela Aluminium</li>
+              <li>Pintu & Jendela Alumunium</li>
               <li>Etalase / Display Kaca</li>
               <li>Canopy & Pagar</li>
               <li>Tangga & Railing</li>
-              <li>Custom Aluminium & Kaca</li>
+              <li>Custom Alumunium & Kaca</li>
             </ul>
           </div>
 
@@ -67,18 +67,20 @@ const Footer = () => {
             <h4 className="font-semibold text-lg mb-4">Kontak</h4>
             <div className="flex flex-col gap-3 text-sm">
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6285711059130"
                 className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 <span>0856-8903-652 / 0857-1105-9130</span>
               </a>
               <a
-                href="mailto:info@aluminiumkaca.com"
+                href="mailto:info@alumuniumkaca.com"
                 className="flex items-center gap-3 text-primary-foreground/70 hover:text-accent transition-colors"
               >
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@aluminiumkaca.com</span>
+                <span>info@alumuniumkaca.com</span>
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -100,7 +102,7 @@ const Footer = () => {
       <div className="border-t border-primary-foreground/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
-            © {currentYear} Aluminium & Kaca. Hak Cipta Dilindungi.
+            © {currentYear} Hikmah Mandiri Alumunium. Hak Cipta Dilindungi.
           </p>
 
           <p className="text-primary-foreground/60 text-sm">
