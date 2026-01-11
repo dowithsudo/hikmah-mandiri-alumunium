@@ -7,6 +7,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import heroBg from "@/assets/hero-bg.jpg";
+import pintuAlumunium from "@/assets/gallery/pintu_alumunium.png";
+import kusenJendela from "@/assets/gallery/kusen_jendela.png";
+import railingKaca from "@/assets/gallery/railing_kaca.png";
+import kanopiKaca from "@/assets/gallery/kanopi_kaca.png";
+import partisiKaca from "@/assets/gallery/partisi_kaca.png";  
+import etalaseKaca from "@/assets/gallery/etalase_kaca.png";
 
 const services = [
   {
@@ -14,36 +20,42 @@ const services = [
     description: "Pintu aluminium modern dengan berbagai pilihan model swing, sliding, dan folding. Tersedia dalam berbagai warna dan finishing.",
     features: ["Tahan karat", "Desain modern", "Berbagai pilihan warna", "Garansi pekerjaan"],
     icon: "🚪",
+    image: pintuAlumunium,
   },
   {
     title: "Jendela Aluminium",
     description: "Jendela aluminium berkualitas tinggi dengan pilihan geser, casement, dan fixed. Cocok untuk rumah modern.",
     features: ["Kedap suara", "Hemat energi", "Perawatan mudah", "Tahan lama"],
     icon: "🪟",
+    image: kusenJendela,
   },
   {
     title: "Etalase / Display Kaca",
     description: "Solusi display profesional untuk toko, showroom, dan outlet. Desain custom sesuai kebutuhan bisnis Anda.",
     features: ["Kaca tempered", "Desain custom", "Pencahayaan optimal", "Keamanan tinggi"],
     icon: "🏪",
+    image: etalaseKaca,
   },
   {
     title: "Canopy & Pagar",
     description: "Perlindungan area outdoor dengan canopy kaca dan aluminium. Pagar aluminium untuk keamanan dan estetika.",
     features: ["Tahan cuaca", "Desain minimalis", "Struktur kokoh", "Anti karat"],
     icon: "🏠",
+    image: kanopiKaca,
   },
   {
     title: "Tangga & Railing",
     description: "Railing tangga dan balkon dengan kombinasi aluminium dan kaca tempered untuk tampilan elegan.",
     features: ["Kaca tempered", "Aluminium premium", "Desain elegan", "Keamanan tinggi"],
     icon: "🔧",
+    image: railingKaca,
   },
   {
     title: "Partisi & Sekat Kaca",
     description: "Pembatas ruangan modern dengan kaca untuk kantor, rumah, dan area komersial.",
     features: ["Frameless option", "Soundproof", "Maksimalkan cahaya", "Instalasi cepat"],
     icon: "📐",
+    image: partisiKaca,
   },
 ];
 
@@ -165,7 +177,7 @@ const Layanan = () => {
               >
                 <div className="aspect-video relative overflow-hidden">
                   <img
-                    src={heroBg}
+                    src={service.image}
                     alt={service.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
