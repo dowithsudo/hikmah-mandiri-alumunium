@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import CTASection from "@/components/sections/CTASection";
 import heroBg from "@/assets/hero-bg.jpg";
+import { galleryPreview } from "@/data/galleryPreview";
 
 const stats = [
   { icon: Award, value: "10+", label: "Tahun Pengalaman" },
@@ -75,18 +76,11 @@ const testimonials = [
   },
 ];
 
-const galleryPreview = [
-  { id: 1, title: "Pintu Aluminium Modern" },
-  { id: 2, title: "Jendela Geser Premium" },
-  { id: 3, title: "Etalase Kaca Tempered" },
-  { id: 4, title: "Canopy Kaca Minimalis" },
-  { id: 5, title: "Railing Tangga Elegan" },
-  { id: 6, title: "Partisi Kaca Office" },
-];
+
 
 const Home = () => {
   const whatsappLink =
-    "https://wa.me/6281234567890?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
+    "https://wa.me/6285711059130?text=Halo%2C%20saya%20tertarik%20dengan%20jasa%20aluminium%20%26%20kaca";
 
   return (
     <>
@@ -122,7 +116,7 @@ const Home = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-10 max-w-2xl mx-auto">
-              Lebih dari 5 tahun pengalaman melayani kebutuhan pintu, jendela, etalase, 
+              Lebih dari 10 tahun pengalaman melayani kebutuhan pintu, jendela, etalase, 
               dan berbagai pekerjaan aluminium & kaca dengan hasil profesional.
             </p>
 
@@ -329,7 +323,7 @@ const Home = () => {
                 className="group relative aspect-square rounded-xl overflow-hidden shadow-soft"
               >
                 <img
-                  src={heroBg}
+                  src={item.image || heroBg}
                   alt={item.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />

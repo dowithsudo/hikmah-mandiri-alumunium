@@ -20,14 +20,6 @@ const values = [
   },
 ];
 
-const milestones = [
-  { year: "2019", event: "Didirikan dan mulai melayani area Jakarta" },
-  { year: "2020", event: "Ekspansi layanan ke Tangerang dan Bekasi" },
-  { year: "2021", event: "Mencapai 100 proyek selesai" },
-  { year: "2022", event: "Menambah tim profesional dan workshop" },
-  { year: "2023", event: "Melayani seluruh Jabodetabek dan sekitarnya" },
-  { year: "2024", event: "200+ proyek dengan kepuasan pelanggan tinggi" },
-];
 
 const areas = [
   "Jakarta Selatan",
@@ -59,7 +51,7 @@ const Tentang = () => {
               HIKMAH MANDIRI ALUMUNIUM
             </h1>
             <p className="text-xl text-primary-foreground/80">
-              Lebih dari 5 tahun pengalaman melayani kebutuhan aluminium dan kaca 
+              Lebih dari 10 tahun pengalaman melayani kebutuhan aluminium dan kaca 
               untuk berbagai jenis bangunan di Jabodetabek.
             </p>
           </div>
@@ -79,7 +71,7 @@ const Tentang = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  <strong className="text-foreground">Aluminium & Kaca</strong> adalah penyedia jasa 
+                  <strong className="text-foreground">Hikmah Mandiri Aluminium</strong> adalah penyedia jasa 
                   aluminium dan kaca profesional yang telah melayani ratusan pelanggan di area 
                   Jabodetabek dan sekitarnya.
                 </p>
